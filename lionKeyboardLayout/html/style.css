@@ -1,0 +1,88 @@
+body {
+    background: transparent;
+}
+
+button {
+    background: rgb(52, 59, 65);
+    color: white;
+    width: 170px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 1%;
+    right: 7%;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    background: rgb(47, 47, 189);
+    cursor: pointer;
+}
+
+.klbox {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    right: -4%;
+    transform: translate(-50%, -50%);
+    background-color: #2b3136;
+    height: 950px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.klbox p {
+    position: relative;
+    font-family: Arial;
+    top: 57px;
+    left: 55px;
+    width: 100px;
+    color: white;
+    cursor: default;
+}
+
+.klboxleft {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 7%;
+    transform: translate(-50%, -50%);
+    background-color: #2b3136;
+    height: 950px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.klboxleft p {
+    position: relative;
+    font-family: Arial;
+    top: 57px;
+    left: 55px;
+    width: 100px;
+    color: white;
+    cursor: default;
+}
+
+.f1 {
+    background-color: rgb(10, 10, 10);
+    border-radius: 5px;
+    height: 33px;
+    width: 33px;
+    position: relative;
+    top: 7%;
+    left: 5%;
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -32px;
+    box-shadow: 0px 0px 5px black;
+    cursor: default;
+}
